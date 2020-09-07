@@ -210,16 +210,7 @@ end
 
 def player_stats(player_name)
   
-  game_hash.each do |location, team_data|
-    # binding.pry
-    team_data[:players].each do |player|
-      # binding.pry
-      stats = {} < player if player[:player_name] == player_name
-      # binding.pry
-      return stats
-    end
-    
-  end
+players[player_name]
 
 end
 
