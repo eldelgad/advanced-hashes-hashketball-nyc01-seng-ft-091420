@@ -210,7 +210,7 @@ end
 
 def player_stats(player_name)
   
-players[player_name]
+  game_hash[:players][player_name]
 
 end
 
