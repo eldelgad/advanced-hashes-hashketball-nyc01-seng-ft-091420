@@ -216,12 +216,11 @@ def player_stats(player_name)
       # binding.pry
       {} < player if player[:player_name] == player_name
       # binding.pry
+      return {}
     end
     
   end
-  
-  return {}
-  
+
 end
 
 # Build a method, big_shoe_rebounds, that will return the number of rebounds associated with the player that has the largest shoe size. Break this one down into steps:
