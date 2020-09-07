@@ -222,7 +222,7 @@ def player_stats(player_name)
     
   end
   
-  p stats[player_name]
+  puts stats[player_name]
   
 end
 
