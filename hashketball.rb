@@ -234,7 +234,7 @@ def big_shoe_rebounds
     
     team_data[:players].each do |player|
       
-      return player[:shoe].max_by{|v|}
+      return player[:shoe].max_by if player[:shoe] > player[:shoe]
       
     end
     
