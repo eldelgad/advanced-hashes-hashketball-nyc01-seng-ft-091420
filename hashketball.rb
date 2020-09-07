@@ -222,7 +222,7 @@ def player_stats(player_name)
     
   end
   
-  puts stats[player_name]
+  binding.pry
   
 end
 
