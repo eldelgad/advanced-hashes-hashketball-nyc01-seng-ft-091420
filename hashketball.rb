@@ -202,7 +202,7 @@ game_hash.each do |location, team_data|
   
   end
 
-return jersey_numbers
+  return jersey_numbers
   
 end
 
@@ -216,11 +216,14 @@ def player_stats(player_name)
     # binding.pry
     team_data[:players].each do |player|
       # binding.pry
-      stats << player if player[:player_name] == player_name
+      stats < player if player[:player_name] == player_name
       # binding.pry
     end
+    
   end
+  
   return stats
+  
 end
 
 # Build a method, big_shoe_rebounds, that will return the number of rebounds associated with the player that has the largest shoe size. Break this one down into steps:
