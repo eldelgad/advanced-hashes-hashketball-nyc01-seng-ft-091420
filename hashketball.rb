@@ -234,11 +234,7 @@ def big_shoe_rebounds
     
     team_data[:players].each do |player|
       
-      return player[:shoe] if player[:shoe] >= 19 
-      
-      elsif
-      
-      return player[:rebounds]
+      return player[:shoe] if player[:shoe] >= 19 return player[:rebounds]
       
     end
     
