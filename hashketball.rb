@@ -222,7 +222,7 @@ def player_stats(player_name)
     
   end
   
-  return stats
+  return stats[player_name]
   
 end
 
