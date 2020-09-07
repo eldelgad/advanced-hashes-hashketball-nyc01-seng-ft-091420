@@ -215,7 +215,7 @@ def player_stats(player_name)
     team_data[:players].each do |player|
       # binding.pry
       stats = {} < player if player[:player_name] == player_name
-      binding.pry
+      # binding.pry
       return stats
     end
     
