@@ -236,7 +236,7 @@ def big_shoe_rebounds
       
       return player[:shoe] if player[:shoe] >= 19 
       
-      return player[:rebounds]
+      return player[:rebounds] if player[:shoe] >= 19 
       
     end
     
